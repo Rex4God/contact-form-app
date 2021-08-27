@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=STIX+Two+Text&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    background:rgba(58, 21, 49, 0.467) url(/background.jpg)no-repeat center center / cover;
+    justify-content: space-between;
+    align-content: flex-start;
+    flex-direction: column;
+    color: ghostwhite;
+}
+.contact-form{
+    width:30%;
+    display: flex;
+    align-items:flex-start;
+    justify-content: space-between;
+    padding:73px 80px;
+    border: 3px solid gainsboro; 
+    flex-direction: column; 
+    font-family: 'STIX Two Text', serif;
+    height:100%;
+    margin-top: 20px;
+    align-content: center;
+}
+.bta{
+    width: 100px;
+    padding: 20px 0;
+    border-radius: 30px;
+    margin:20px 0;
+    background: rgb(201, 190, 175);
+    border:none;
+    margin-bottom: 20px;
+    color: hsl(0, 80%, 47%);
+ }
+ input,
+ textarea{
+     width: 100%;
+     margin-top: 0.5rem;
+     border: none;
+     border-bottom: 1 px solid black;
+ }
+ .submit{
+     border: 1 px solid black;
+     padding: 1rem;
+     text-align: center;
+     cursor: pointer;
+ }
+ .submit:hover{
+     opacity: 0.6;
+ }
